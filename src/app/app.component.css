@@ -1,0 +1,49 @@
+section{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+justify-items: center;
+align-items: center;
+min-height: 100vh;
+}
+form{
+    width: 420px;
+}
+.input-grouper{
+    display: flex;
+    gap: 20px;
+}
+input.ng-invalid.ng-touched{
+    border: 1px red solid;
+}
+input.ng-pending{
+    border: 1px yellow solid;
+}
+.email{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.email-delete{
+    display: flex;
+    gap: 10px;
+}
+
+.email-delete input{
+    width: 360px;
+}
+.email-error-message{
+box-sizing: border-box;
+position: absolute;
+margin-top: 40px;
+}
+.margin{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.deleteBtn{
+    height: 38px;
+}
+small{
+    color:red;
+}
